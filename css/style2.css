@@ -27,7 +27,7 @@ main {
 }
 
 .titolo {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 2%;
 }
 
@@ -37,13 +37,26 @@ main {
     margin-bottom: 2%;
 }
 
+figcaption {
+    font-size: 10px;
+}
+
 .paragrafo1 {
     margin: 2% 0;
 }
 
-figcaption {
-    font-size: 10px;
+/* Lista */
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 2%;
 }
+
+/* Tabella o no tabella? */
+
+
+
+
 
 .casella {
     display: inline-block;
@@ -52,13 +65,48 @@ figcaption {
 }
 
 .ultima {
-    width: 58%;
+    width: 50%;
 }
 
 .riga-testa {
     background-color: rgb(125, 94, 234);
+    color: white;
 }
 
 .riga-dispari{
     background-color: lightblue;
+}
+
+/* FOOTER */
+footer {
+    margin: 0 10%;
+}
+
+footer > p {
+    color: gray;
+    margin-bottom: 2%;
+}
+
+.immagine1 {
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.immagine2 {
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+footer > div {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 2%;
 }
