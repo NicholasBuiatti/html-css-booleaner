@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    background-image: url(../img/pattern.png);
+    height: 20vh;
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    height: 50%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* MAIN */
+
+main {
+    margin: 0 10%;
+}
+
+.titolo {
+    font-size: 70px;
+    margin-top: 2%;
+}
+
+.dati {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.paragrafo1 {
+    margin: 2% 0;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.casella {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+.ultima {
+    width: 58%;
+}
+
+.riga-testa {
+    background-color: rgb(125, 94, 234);
+}
+
+.riga-dispari{
+    background-color: lightblue;
+}
