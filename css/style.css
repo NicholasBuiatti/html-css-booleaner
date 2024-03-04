@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.img-superiore {
+    background-color: rgb(102, 102, 245);
+    background-image: url(../img/pattern.png);
+    height: 10vh;
+}
+
+.logo {
+    height: 50%;
+}
+
+.titolo {
+    margin: 20px 0;
+}
+.titolo > h1 {
+    font-size: 65px;
+}
+
+.titolo > p {
+    color: gray;
+}
+
+/* body */
