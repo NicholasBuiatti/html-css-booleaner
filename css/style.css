@@ -8,10 +8,21 @@
     background-color: rgb(102, 102, 245);
     background-image: url(../img/pattern.png);
     height: 20vh;
+    position: relative;
 }
 
 .logo {
     height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* body */
+
+main {
+    margin: 0 20px;
 }
 
 .titolo {
@@ -26,13 +37,11 @@
     color: gray;
 }
 
-/* body */
-
 figcaption {
     font-size: 10px;
 }
 
-body > p {
+main > p {
     margin: 20px 0;
 }
 
@@ -67,14 +76,14 @@ tr {
 
 /* Footer */
 
+footer {
+    margin: 0 20px;
+}
+
 footer > p {
     color: gray;
 }
 
-/* .img-monitor {
-    display: block;
-    margin: 10px 0;
-} */
 
 .foto1 {
     background-image: url(../img/monitor.jpg);
