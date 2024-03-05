@@ -55,6 +55,9 @@ thead {
     background-color: blue;
 }
 
+table {
+    border-spacing: 0;
+}
 tr {
     text-align: left;
 }
